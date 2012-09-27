@@ -12,6 +12,7 @@ describe('Carl', function() {
     var carl = new Carl();
     carl.mean.should.equal(0);
     carl.variance.should.equal(1);
+    carl.epsilon.should.equal(0.05);
     round(carl.pdf(1)).should.eql(0.242);
   });
   
@@ -36,6 +37,12 @@ describe('Carl', function() {
     var carl = new Carl();
     round(carl.cdf(2)).should.eql(0.977);
     round(carl.cdf(-2)).should.eql(0.023);
+  });
+  
+  it('should use mean, variance and epsilon from constructor parameters to detect anomaly', function() {
+    var carl = new Carl(0.161388, 0.007538945, 0.1);
+    carl.isAnomalous(0.1).should.be.false;
+    carl.isAnomalous(0.01).should.be.true;
   });
   
   it('should determine significance with epsilon .05', function() {
