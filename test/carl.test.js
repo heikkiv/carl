@@ -28,11 +28,20 @@ describe('Carl', function() {
   
   it('should determine significance with epsilon .05', function() {
     var carl = new Carl();
-    carl.isSignificant(0).should.be.true;
-    carl.isSignificant(0.5).should.be.true;
-    carl.isSignificant(-0.5).should.be.true;
-    carl.isSignificant(3).should.be.false;
-    carl.isSignificant(-3).should.be.false;
+    carl.isAnomalous(0).should.be.false;
+    carl.isAnomalous(0.5).should.be.false;
+    carl.isAnomalous(-0.5).should.be.false;
+    carl.isAnomalous(3).should.be.true;
+    carl.isAnomalous(-3).should.be.true;
+  });
+
+  it('should return opposite of isAnomalous with iValid', function() {
+    var carl = new Carl();
+    carl.isValid(0).should.be.true;
+    carl.isValid(0.5).should.be.true;
+    carl.isValid(-0.5).should.be.true;
+    carl.isValid(3).should.be.false;
+    carl.isValid(-3).should.be.false;
   });
 
 });
