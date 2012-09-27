@@ -1,0 +1,20 @@
+{
+  "name": "carl",
+  "description": "Probability density based anomaly detection library",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heikkiv/carl.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "gauss": "0.2.7",
+    "gaussian": "1.0.0",
+    "mocha": "1.5.0",
+    "should": "1.2.0"
+  },
+  "author": "Heikki Verta <heikki.verta@gmail.com>"
+}
+
