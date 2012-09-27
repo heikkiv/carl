@@ -25,6 +25,15 @@ describe('Carl', function() {
     carl.train([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
     round(carl.pdf(3)).should.eql(0.004);
   });
+  
+  it('should determine significance with epsilon .05', function() {
+    var carl = new Carl();
+    carl.isSignificant(0).should.be.true;
+    carl.isSignificant(0.5).should.be.true;
+    carl.isSignificant(-0.5).should.be.true;
+    carl.isSignificant(3).should.be.false;
+    carl.isSignificant(-3).should.be.false;
+  });
 
 });
 
