@@ -11,3 +11,7 @@ carl.train([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // Calculates mean and variance fro
 var p = carl.pdf(3); // Value of the probability density function for given x
 var ok = carl.isSignificant(0.5); // Significance testing (returns boolean)
 ```
+
+## License
+
+Licensed under MIT License, Copyright Heikki Verta 2012

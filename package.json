@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git://github.com/heikkiv/carl.git"
   },
+  "main": "lib/carl",
   "scripts": {
     "test": "mocha"
   },
@@ -15,6 +16,10 @@
     "mocha": "1.5.0",
     "should": "1.2.0"
   },
-  "author": "Heikki Verta <heikki.verta@gmail.com>"
+  "author": "Heikki Verta <heikki.verta@gmail.com>",
+  "licenses": {
+    "type": "MIT",
+    "url": "http://github.com/heikkiv/carl/LICENSE"
+  },
 }
 
