@@ -1,5 +1,5 @@
-var Carl = require('../lib/carl')
-var should = require('should')
+var Carl = require('../lib/carl');
+var should = require('should');
 
 describe('Carl', function() {
 
@@ -23,7 +23,7 @@ describe('Carl', function() {
   it('should calculate mean and variance from given data', function() {
     var carl = new Carl();
     carl.train([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
-    round(carl.pdf(3)).should.eql(0.095);
+    round(carl.pdf(3)).should.eql(0.004);
   });
 
 });

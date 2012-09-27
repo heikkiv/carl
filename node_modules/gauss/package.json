@@ -1,0 +1,28 @@
+{
+  "author": "Fredrick Galoso <fgaloso@stackd.com>",
+  "name": "gauss",
+  "description": "JavaScript statistics, analytics, and set library",
+  "version": "0.2.7",
+  "keywords": [ "statistics", "analytics", "timeseries", "math", "gauss", "set" ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackd/gauss.git"
+  },
+  "main": "index",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {
+      "vows": "latest",
+      "uglify-js": "latest"
+  },
+  "bin": {
+    "gauss": "./bin/gauss"
+  },
+  "scripts": {
+    "start": "./bin/gauss",
+    "test": "node_modules/.bin/vows test/*",
+    "build": "node build.js"
+  }
+}
