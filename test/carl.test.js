@@ -26,6 +26,18 @@ describe('Carl', function() {
     round(carl.pdf(3)).should.eql(0.004);
   });
   
+  it('should calculate pdf correctly', function() {
+    var carl = new Carl();
+    round(carl.pdf(1)).should.eql(0.242);
+    round(carl.pdf(-1)).should.eql(0.242);
+  });
+
+  it('should calculate cdf correctly', function() {
+    var carl = new Carl();
+    round(carl.cdf(2)).should.eql(0.977);
+    round(carl.cdf(-2)).should.eql(0.023);
+  });
+  
   it('should determine significance with epsilon .05', function() {
     var carl = new Carl();
     carl.isAnomalous(0).should.be.false;
