@@ -1,0 +1,101 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.62
+3 info using node@v0.6.15
+4 verbose publish [ '.' ]
+5 verbose read json /Users/heikki/workspace/carl/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/heikki/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/tmp.tgz
+14 verbose folder .
+15 info prepublish carl@0.0.2
+16 silly lockFile 639c6ee1-59515-0-4382299624849111-tmp-tgz /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/tmp.tgz
+17 verbose lock /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/tmp.tgz /Users/heikki/.npm/639c6ee1-59515-0-4382299624849111-tmp-tgz.lock
+18 silly lockFile 639c6ee1-59515-0-4382299624849111-tmp-tgz /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/tmp.tgz
+19 verbose tar unpack /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/tmp.tgz
+20 silly lockFile e1206330-59515-0-4382299624849111-package /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/package
+21 verbose lock /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/package /Users/heikki/.npm/e1206330-59515-0-4382299624849111-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry .npmignore
+25 silly gunzTarPerm extractEntry README.md
+26 silly gunzTarPerm extractEntry LICENSE
+27 silly gunzTarPerm extractEntry lib/carl.js
+28 silly gunzTarPerm extractEntry test/carl.test.js
+29 verbose read json /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/package/package.json
+30 silly lockFile e1206330-59515-0-4382299624849111-package /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/package
+31 verbose from cache /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/package/package.json
+32 verbose tar pack [ '/Users/heikki/.npm/carl/0.0.2/package.tgz',
+32 verbose tar pack   '/var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/package' ]
+33 verbose tarball /Users/heikki/.npm/carl/0.0.2/package.tgz
+34 verbose folder /var/folders/0f/wh2wk3yj6nj0dtkygp6ldbq80000gn/T/npm-42488/1348754359515-0.4382299624849111/package
+35 silly lockFile bf356363-eikki-npm-carl-0-0-2-package-tgz /Users/heikki/.npm/carl/0.0.2/package.tgz
+36 verbose lock /Users/heikki/.npm/carl/0.0.2/package.tgz /Users/heikki/.npm/bf356363-eikki-npm-carl-0-0-2-package-tgz.lock
+37 silly lockFile bf356363-eikki-npm-carl-0-0-2-package-tgz /Users/heikki/.npm/carl/0.0.2/package.tgz
+38 silly lockFile f0dfac9a-rs-heikki-npm-carl-0-0-2-package /Users/heikki/.npm/carl/0.0.2/package
+39 verbose lock /Users/heikki/.npm/carl/0.0.2/package /Users/heikki/.npm/f0dfac9a-rs-heikki-npm-carl-0-0-2-package.lock
+40 silly lockFile f0dfac9a-rs-heikki-npm-carl-0-0-2-package /Users/heikki/.npm/carl/0.0.2/package
+41 verbose tar unpack /Users/heikki/.npm/carl/0.0.2/package.tgz
+42 silly lockFile f0dfac9a-rs-heikki-npm-carl-0-0-2-package /Users/heikki/.npm/carl/0.0.2/package
+43 verbose lock /Users/heikki/.npm/carl/0.0.2/package /Users/heikki/.npm/f0dfac9a-rs-heikki-npm-carl-0-0-2-package.lock
+44 silly gunzTarPerm modes [ '755', '644' ]
+45 silly gunzTarPerm extractEntry package.json
+46 silly gunzTarPerm extractEntry .npmignore
+47 silly gunzTarPerm extractEntry README.md
+48 silly gunzTarPerm extractEntry LICENSE
+49 silly gunzTarPerm extractEntry lib/carl.js
+50 silly gunzTarPerm extractEntry test/carl.test.js
+51 verbose read json /Users/heikki/.npm/carl/0.0.2/package/package.json
+52 silly lockFile f0dfac9a-rs-heikki-npm-carl-0-0-2-package /Users/heikki/.npm/carl/0.0.2/package
+53 silly shasum updated bytes 2200
+54 info shasum ce6058d05ca70d3e56438a6f7e5335e4c4c897f6
+54 info shasum /Users/heikki/.npm/carl/0.0.2/package.tgz
+55 verbose from cache /Users/heikki/.npm/carl/0.0.2/package/package.json
+56 verbose chmod /Users/heikki/.npm/carl/0.0.2/package.tgz 644
+57 verbose chown /Users/heikki/.npm/carl/0.0.2/package.tgz [ 501, 20 ]
+58 silly lockFile 3a52ce78- .
+59 silly publish { name: 'carl',
+59 silly publish   description: 'Probability density based anomaly detection library',
+59 silly publish   version: '0.0.2',
+59 silly publish   repository: { type: 'git', url: 'git://github.com/heikkiv/carl.git' },
+59 silly publish   main: 'lib/carl',
+59 silly publish   scripts: { test: 'mocha' },
+59 silly publish   dependencies:
+59 silly publish    { gauss: '0.2.7',
+59 silly publish      gaussian: '1.0.0',
+59 silly publish      mocha: '1.5.0',
+59 silly publish      should: '1.2.0' },
+59 silly publish   author: { name: 'Heikki Verta', email: 'heikki.verta@gmail.com' },
+59 silly publish   licenses: { type: 'MIT', url: 'http://github.com/heikkiv/carl/LICENSE' },
+59 silly publish   readme: '# carl\n\nProbability density based anomaly detection library for node.js\n\n## API\n\n```javascript\nvar Carl = require(\'./lib/carl\');\nvar carl = new Carl(); // defaults to 0 mean, 1 variance\ncarl.train([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // Calculates mean and variance from data \nvar p = carl.pdf(3); // Value of the probability density function for given x\nvar ok = carl.isAnomalous(0.5); // Anomaly testing (returns boolean)\n```\n\n## License\n\nLicensed under MIT License, Copyright Heikki Verta 2012\n',
+59 silly publish   _id: 'carl@0.0.2',
+59 silly publish   dist: { shasum: 'ce6058d05ca70d3e56438a6f7e5335e4c4c897f6' } }
+60 verbose url raw carl
+61 verbose url resolving [ 'https://registry.npmjs.org/', './carl' ]
+62 verbose url resolved https://registry.npmjs.org/carl
+63 info trying registry request attempt 1 at 16:59:19
+64 http PUT https://registry.npmjs.org/carl
+65 http 409 https://registry.npmjs.org/carl
+66 verbose url raw carl
+67 verbose url resolving [ 'https://registry.npmjs.org/', './carl' ]
+68 verbose url resolved https://registry.npmjs.org/carl
+69 info trying registry request attempt 1 at 16:59:20
+70 http GET https://registry.npmjs.org/carl
+71 http 200 https://registry.npmjs.org/carl
+72 error publish fail Cannot publish over existing version.
+72 error publish fail Bump the 'version' field, set the --force flag, or
+72 error publish fail     npm unpublish 'carl@0.0.2'
+72 error publish fail and try again
+73 error System Darwin 12.1.0
+74 error command "node" "/usr/local/bin/npm" "publish"
+75 error cwd /Users/heikki/workspace/carl
+76 error node -v v0.6.15
+77 error npm -v 1.1.62
+78 error code EPUBLISHCONFLICT
+79 verbose exit [ 1, true ]
